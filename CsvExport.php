@@ -6,7 +6,7 @@
  * @version 1.0
  * @license public domain (http://unlicense.org)
  * @package extensions.yiicsvexport
- * @link 
+ * @link https://github.com/nilsburg/YiiCsvExport
  */
 
 class YiiCsvExport extends CWidget{

@@ -1,5 +1,16 @@
 # YiiCsvExport
 Yii widget for simple csv export
 
-Install into extensions directory of your yii project
-Example: root/protected/extensions/yiicsvexport
+##Installation
+
+1. Copy "YiiCsvExport.php" to extensions dir (i.e. protected/extensions)
+
+##Usage
+
+$data = [
+	'col1'=>"A",
+	"col2"=>"B"
+];
+$this->widget('ext.CsvExport', array(
+	'data'=>$data
+));
